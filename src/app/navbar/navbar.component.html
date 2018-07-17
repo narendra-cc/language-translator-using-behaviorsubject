@@ -1,0 +1,10 @@
+<div>
+ <select [(ngModel)]="select_option" (change)="setlang()">
+    <option value="english" selected>English</option>
+    <option value="spanish">Spanish</option>
+    <option value="french">French</option>
+  </select>
+</div>
+
+<label> Language selected {{select_option}} </label><br/>
+<label> Language selected From service {{lang}} </label>
